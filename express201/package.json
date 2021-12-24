@@ -1,0 +1,20 @@
+{
+  "name": "express201",
+  "version": "1.0.0",
+  "main": "appUse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "helmet": "^4.6.0",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}

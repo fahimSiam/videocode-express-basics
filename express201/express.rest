@@ -1,0 +1,8 @@
+###
+GET  http://localhost:3000/test
+Content-Type: application/json
+
+{
+  "LoggedInId": 4
+}
+
