@@ -1,0 +1,9 @@
+<% include head %>
+<h1><%= title %></h1>
+<h2><%= locals.message %></h2>
+<h3><%= locals.validated %></h3> <!-- this came from another middleware comment that shows -->
+<%- html %> <br /> <%# to insert html and this is hidden comment %>
+<% for (let i = 0; i<10; i++){ %>
+<p><%= i %></p>
+<br />
+<% } %>
