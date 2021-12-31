@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie App</title>
+    <% include head %>
+  </head>
+  <body>
+    <% include navbar %>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Now Playing</h1>
+        </div>
+        <div class="col-sm-12">
+          <% parsedData.forEach((movie)=>{ %>
+          <div class="col-md-3 col-sm-4">
+            <a href="/movie/<%= movie.id %>">asas</a>
+            <img src=" <%= imageBaseUrl+movie.poster_path %>" />
+            <!-- <% console.log(imageBaseUrl+movie.poster_path) %> -->
+          </div>
+          <% }) %> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
